@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask # type: ignore
 from controllers.order_controller import order_bp
 
 app = Flask(__name__)

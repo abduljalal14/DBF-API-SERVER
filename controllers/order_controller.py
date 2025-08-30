@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify # type: ignore
 from dbf_database import DBFDatabase, DBFTable
 import json
 

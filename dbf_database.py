@@ -1,4 +1,4 @@
-from dbfread import DBF
+from dbfread import DBF # type: ignore
 from typing import List, Dict, Any, Optional
 import os
 
